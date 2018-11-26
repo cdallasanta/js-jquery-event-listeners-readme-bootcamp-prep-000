@@ -8,7 +8,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(event){
     console.log(event);
-    document.querySelector('img').classList.add("tasty");
+    document.querySelector('img').classList.add('tasty');
   });
 }
 
