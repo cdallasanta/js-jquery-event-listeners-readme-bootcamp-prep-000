@@ -15,8 +15,10 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('p').on('click', function(){
-    alert('Hey!');
+  $('input').on('keydown', function(key){
+    if(key.which===13){
+      alert('Your pressed G!');
+    }
   });
 }
 
