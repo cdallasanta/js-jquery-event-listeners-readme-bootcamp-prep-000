@@ -12,6 +12,7 @@ function frameIt(){
   $('img').on('load', function(img){
     img.classList.add("tasty");
   });
+  console.log('done?')
 }
 
 });
