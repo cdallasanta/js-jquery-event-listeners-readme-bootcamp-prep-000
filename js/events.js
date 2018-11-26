@@ -14,4 +14,10 @@ function frameIt(){
   });
 }
 
+function pressIt(){
+  $('p').on('click', function(){
+    alert('Hey!');
+  });
+}
+
 });
